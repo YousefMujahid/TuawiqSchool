@@ -1,0 +1,14 @@
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/bin/Debug/net7.0/TUAWIQSCHOOL
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/bin/Debug/net7.0/TUAWIQSCHOOL.deps.json
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/bin/Debug/net7.0/TUAWIQSCHOOL.runtimeconfig.json
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/bin/Debug/net7.0/TUAWIQSCHOOL.dll
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/bin/Debug/net7.0/TUAWIQSCHOOL.pdb
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/obj/Debug/net7.0/TUAWIQSCHOOL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/obj/Debug/net7.0/TUAWIQSCHOOL.AssemblyInfoInputs.cache
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/obj/Debug/net7.0/TUAWIQSCHOOL.AssemblyInfo.cs
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/obj/Debug/net7.0/TUAWIQSCHOOL.CSPROJ.CoreCompileInputs.cache
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/obj/Debug/net7.0/TUAWIQSCHOOL.dll
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/obj/Debug/net7.0/refint/TUAWIQSCHOOL.dll
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/obj/Debug/net7.0/TUAWIQSCHOOL.pdb
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/obj/Debug/net7.0/TUAWIQSCHOOL.genruntimeconfig.cache
+/Users/yousefmujahid/Documents/GitHub/TuawiqSchool/obj/Debug/net7.0/ref/TUAWIQSCHOOL.dll
