@@ -2,7 +2,7 @@ public class Class
 {
     Class course;
     string name;
-    string name2 = "";
+   
 
     public Class()
     {
