@@ -9,7 +9,11 @@ namespace School
     {
 
         public static void Main(string[] args)
+
         {
+
+            Taecher T1[] =new Taecher[10];
+            
             // -------- Varibales--------
             string adminEmail = "admin@admin.com";
             string adminPassword = "admin";
@@ -52,6 +56,7 @@ namespace School
 
                         case 1:
                             Console.WriteLine("Its 1 option");
+                            
                             break;
                         case 2:
                             Console.WriteLine("Its 2 option");
@@ -66,7 +71,9 @@ namespace School
                             Console.WriteLine("Its 5 option");
                             break;
                         case 6:
-                            Console.WriteLine("Its 6 option");
+                            Console.WriteLine("");
+                            T1.addTeacher();
+                            
                             break;
                         case 7:
                             Console.WriteLine("Its 7 option");

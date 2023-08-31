@@ -7,20 +7,30 @@ namespace Human
 {
 
 
+
     public class Person
     {
+        
 
         /* ------- Variables -------*/
-        string name = "";
-        string DoB = "";
-        int nationalID = 0;
-        string gender = "";
-        string homeTown = "";
-        string occupation = "";
-        int teacherID = 0; 
-        /* ------- Variables -------*/
+        string name ;
+        string DoB ;
+        int nationalID ;
+        string gender ;
+        string homeTown ;
+        
 
-        /* ------- Setters and Getters ------- */
+        
+        /* ------- Constructor -------*/
+     /*  public Person (string name,  string DoB,  int nationalID , string gender, string homeTown, ){ 
+        this.name=name;
+        this.DoB=DoB;
+        this.nationalID=nationalID;
+        this.gender=gender;
+        this.homeTown=homeTown;
+
+       }*/
+      
         public string getName()
         {
             return name;
@@ -69,27 +79,7 @@ namespace Human
 
         }
 
-        public string getOccupation()
-        {
-            return occupation;
-        }
-        public string void setOccupation(string occupation)
-        {
-            this.occupation = occupation;
-        }
+       
 
-        public int getTeacherID(){
-            return teacherID;
-        }
-        public void setTeacherID(int teacherID){
-            this.teacherID = teacherID;
-
-        }
-        /* ------- Setters and Getters ------- */
-
-
-
-
-    }
-
+}
 }
