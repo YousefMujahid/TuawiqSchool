@@ -25,17 +25,27 @@ public class Student
         ID = ++ID;
     }
 
-    public addCourse(String name)
+    public addCourse()
     {
-        //Search ,, show list
-
-
-        //input course name 
-
         // check if #c < 5 >> ok
+        if (numberOfCourses <= 5 )
+            Console.WriteLine("sorry you cant add more classes!");
 
-        // assign course 
+        else
+        {
+            //String name, int yourLevel
+            int yourLevel = Control.Read("Enter your level:");
+            //Search ,, show list
+            Course.showCourses(yourLevel); // for level
 
+            //input course name 
+            Console.WriteLine("Enter Course name based on list appeared:");
+            string courseName = Console.ReadLine();
+    
+            // assign course 
+            courses[numberOfCourses] = findCourse(courseName);
+            Console.WriteLine("A course have been added successfully");
+        }
     }
 
     
