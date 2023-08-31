@@ -40,11 +40,10 @@ namespace School
                     Console.WriteLine("Welcome Mrs. Admin. please choose from the menu below");
                     Console.WriteLine("1) Register a student");
                     Console.WriteLine("2) Student attendence");
-                    Console.WriteLine("3) Add a new course");
-                    Console.WriteLine("4) Add a new equipment");
-                    Console.WriteLine("5) Search for an equipment");
-                    Console.WriteLine("6) Hire a new teacher");
-                    Console.WriteLine("7) Fire a teacher");
+                    Console.WriteLine("3) Add a new course"); // finish
+                    Console.WriteLine("4) Search for an equipment");
+                    Console.WriteLine("5) Hire a new teacher");
+                    Console.WriteLine("6) Fire a teacher");
                     int menuChoice = Convert.ToInt32(Console.ReadLine());
 
                     switch (menuChoice)
@@ -56,9 +55,25 @@ namespace School
                         case 2:
                             Console.WriteLine("Its 2 option");
                             break;
+
                         case 3:
-                            Console.WriteLine("Its 3 option");
-                            break;
+                            {
+                                Console.WriteLine("Its option 3");
+
+                                Console.WriteLine("Enetr name of course:");
+                                Console.ReadLine();
+
+                                Console.WriteLine("Enetr name of Teacher:");
+                                Console.ReadLine();
+
+                                Console.WriteLine("Enetr name of Level:");
+                                Convert.ToInt32(Console.Read());
+
+                                Course.addCourse(name, teacherName, level);
+                                break;
+
+                            }
+                            
                         case 4:
                             Console.WriteLine("Its 4 option");
                             break;
@@ -67,9 +82,6 @@ namespace School
                             break;
                         case 6:
                             Console.WriteLine("Its 6 option");
-                            break;
-                        case 7:
-                            Console.WriteLine("Its 7 option");
                             break;
                         default:
                             Console.WriteLine("Sorry, there is no option for your choice");
@@ -97,7 +109,7 @@ namespace School
                 {
 
                     Console.WriteLine("Hello Student, please choose from the menu below: ");
-                    Console.WriteLine("1) Add a course");
+                    Console.WriteLine("1) Add a course"); //finish
                     Console.WriteLine("2) Show schedule");
                     Console.WriteLine("3) Show attendence");
                     Console.WriteLine("4) Take exam");
@@ -107,7 +119,8 @@ namespace School
                     switch (secondMenuChoice)
                     {
                         case 1:
-                            Console.WriteLine("Its 1 option");
+                            Console.WriteLine("Its 1 option"); //need to fix
+                            Student.addCourse();
                             break;
                         case 2:
                             Console.WriteLine("Its 2 option");
