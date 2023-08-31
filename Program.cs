@@ -25,12 +25,6 @@ namespace School
             // --- Welcoming sentence ---       
 
 
-            /* NOTE: 
-                    Make the menu repetitive by using while loop.. 
-            */
-
-            //bool wishToContinue = true;
-
 
             if (choice == 1)
             {

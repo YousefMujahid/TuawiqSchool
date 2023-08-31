@@ -15,5 +15,6 @@ public class Class
         this.course = course;
     }
 
+    
 
 }
