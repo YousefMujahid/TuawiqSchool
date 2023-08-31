@@ -12,7 +12,7 @@ namespace Human
     {
         
 
-        /* ------- Variables -------*/
+        /* ------- Variables --------*/
         string name ;
         string DoB ;
         int nationalID ;

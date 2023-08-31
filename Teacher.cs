@@ -13,7 +13,7 @@ namespace School
 
        
 
-        /* ------- Variables -------*/
+        /* ------- Variables --------*/
 
         string field ;
         int teacherID ;
