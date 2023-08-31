@@ -1,6 +1,6 @@
 public class Class
 {
-    Class course;
+    Course course;
     string name;
    
 

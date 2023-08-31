@@ -12,7 +12,11 @@ namespace School
 
         {
 
-            Taecher T1[] =new Taecher[10];
+            Teacher teacherArray =new Teacher[10];
+            Student studentArray = new Student[100];
+
+            int numberOfT=0;
+            int numberOfS=0;
             
             // -------- Varibales--------
             string adminEmail = "admin@admin.com";
@@ -42,12 +46,11 @@ namespace School
                 {
 
                     Console.WriteLine("Welcome Mrs. Admin. please choose from the menu below");
-                    Console.WriteLine("1) Register a student");
+                    Console.WriteLine("1) Register a student"); //finish
                     Console.WriteLine("2) Student attendence");
                     Console.WriteLine("3) Add a new course"); // finish
-                    Console.WriteLine("4) Search for an equipment");
-                    Console.WriteLine("5) Hire a new teacher");
-                    Console.WriteLine("6) Fire a teacher");
+                    Console.WriteLine("4) Hire a new teacher"); //
+                    Console.WriteLine("5) Fire a teacher");
                     int menuChoice = Convert.ToInt32(Console.ReadLine());
 
                     switch (menuChoice)
@@ -55,7 +58,31 @@ namespace School
 
                         case 1:
                             Console.WriteLine("Its 1 option");
-                            
+                            if ( numberOfT <= 100 )
+                            {
+                                studentArray[numberOfS++] = new Student();
+
+                                Console.WriteLine("Enter name of student:");
+                                string n = Console.ReadLine();
+
+                                Console.WriteLine("Enter ID of student:");
+                                int id = Convert.ToInt32(Console.ReadLine());
+
+                                Console.WriteLine("Enter name of student:");
+                                int l = int.Parse(Console.ReadLine());
+
+                                Console.WriteLine("Enter name of student:");
+                                string dob = Console.ReadLine();
+
+                                Console.WriteLine("Enter name of student:");
+                                string ht = Console.ReadLine();
+
+                                register( n,  id,  l, dob, ht);
+                            }
+                            else 
+                            {
+                                Console.WriteLine("Sorry, number of students have reached its limit");
+                            }
                             break;
                         case 2:
                             Console.WriteLine("Its 2 option");
@@ -85,11 +112,7 @@ namespace School
                         case 5:
                             Console.WriteLine("Its 5 option");
                             break;
-                        case 6:
-                            Console.WriteLine("");
-                            T1.addTeacher();
-                            
-                            break;
+
                         default:
                             Console.WriteLine("Sorry, there is no option for your choice");
                             break;
